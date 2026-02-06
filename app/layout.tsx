@@ -38,7 +38,7 @@ export default function RootLayout({
         sticky top-0 z-50 h-[1rem] mx-[15rem] justify-center backdrop-blur-sm drop-shadow-2xl
         "
         >
-          <a href="https://katsuu04.dev">Main website</a>
+          <a className="link" href="https://katsuu04.dev">Main website</a>
         </header>
         {children}
       </body>
