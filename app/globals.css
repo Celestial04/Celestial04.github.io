@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,7 +21,9 @@
 }
 
 body {
-  background: var(--background);
+  background: url(../public/bg.jpg);
+  background-size: cover;
+  height: 100%;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
