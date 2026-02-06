@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next"
 import { styleText } from "util";
 
 const geistSans = Geist({
@@ -24,7 +25,9 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  
   children,
+  
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -42,6 +45,12 @@ export default function RootLayout({
         </header>
         {children}
       </body>
+        return (
+    <Link href="/dashboard" scroll={false}>
+      Dashboard
+    </Link>
     </html>
+    
   );
+  
 }
