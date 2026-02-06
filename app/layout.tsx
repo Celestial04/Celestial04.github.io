@@ -37,7 +37,7 @@ export default function RootLayout({
       >
         <header
           className="
-        sticky top-0 z-50 h-[1rem] mx-[15rem] justify-center backdrop-blur-sm drop-shadow-2xl
+        sticky top-0 z-50 h-[2rem] mx-[15rem] justify-center backdrop-blur-sm drop-shadow-2xl border-purple-500
         "
         >
           <a className="hover:bg-[#ffaadd] hover:text-[#0a0a0a] hover: transition duration-150" href="https://katsuu04.dev">Main website</a>
