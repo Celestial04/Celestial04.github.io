@@ -20,6 +20,10 @@
   }
 }
 
+a:hover{
+  color: #ffaadd;
+}
+
 body {
   background: url(../public/bg.jpg);
   background-size: cover;
