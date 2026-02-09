@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playPenSans.className}  bg-[url(../public/bg.jpg)]`}
+        className={`${playPenSans.className}`}
       >
         <header className="sticky top-0 z-50 h-14 mx-60 justify-center backdrop-blur-xl drop-shadow-zinc-950 text-center content-center">
             <a
