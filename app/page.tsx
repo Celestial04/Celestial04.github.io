@@ -1,4 +1,5 @@
 import Image from "next/image";
+import pfp from '@/app/img/pfp.gif';
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
         <div className="backdrop-blur-md p-3.5 rounded-md bg-background">
           <Image
-            src="pfp.gif"
+            src={pfp.src}
             alt="Celeste's Discord profil picture."
             width={100}
             height={100}

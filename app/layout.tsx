@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from '@/app/components/Header';
 import Footer from "./components/Footer";
 import pfp from '@/app/img/pfp.gif';
+import bg from '@/app/img/bg.jpg'
 
 const playPenSans = Playpen_Sans({
   subsets: ["latin"]
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: "Hi! I'm Celeste, a developper from France who have 21yo! Learn more about me here!",
     siteName: 'Celeste\'s portfolio website',
     url: url,
-    images: '../bg.jpg'
+    images: [bg.src]
   },
   twitter: {
     card: 'summary',
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   },
 
   
-  icons: "../public/pfp.gif"
+  icons: [pfp.src]
 };
 
 export default function RootLayout({
@@ -44,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playPenSans.className} backdrop-blur-xl`}
+        className={` bg-[src("${bg.src}")] ${playPenSans.className} backdrop-blur-xl`}
       >
         <Header/>
         {children}
