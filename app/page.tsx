@@ -13,12 +13,14 @@ export default function Home() {
             className="rounded-md"
             unoptimized
           />
-          
+
           <div className="flex flex-col sm:items-start sm:text-center">
-            <p className="text-2xl">Hi! 👋</p>
-            <p >
+            <p className="text-2xl">
+              Hi! 👋
+              </p>
+            <p>
               aaaaaaaaaaaaaaaaaa
-            </p>
+              </p>
           </div>
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
             <a
