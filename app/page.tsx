@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className=" flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
-        <div className="backdrop-blur-md p-3.5 rounded-md">
+        <div className="backdrop-blur-md p-3.5 rounded-md bg-foreground">
           <Image
             src="/avatar.gif"
             alt="Celeste's Discord profil picture."
@@ -13,8 +13,9 @@ export default function Home() {
             className="rounded-md"
             unoptimized
           />
-          <p>hi aaaaaaaaaaaaa</p>
-          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
+          
+          <div className="flex flex-col sm:items-start sm:text-center">
+            <p className="text-2xl">hi!</p>
             <p className="max-w-md text-lg leading-6 text-zinc-600">
               aaaaaaaaaaaaaaaaaa
             </p>
