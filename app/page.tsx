@@ -15,7 +15,7 @@ export default function Home() {
           />
           
           <div className="flex flex-col sm:items-start sm:text-center">
-            <p className="text-2xl">hi!</p>
+            <p className="text-2xl">Hi! 👋</p>
             <p className="">
               aaaaaaaaaaaaaaaaaa
             </p>
