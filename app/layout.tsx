@@ -7,18 +7,20 @@ const playPenSans = Playpen_Sans({
 })
 
 const title = "celeste04.moe | portfolio website"
+const url = "https://celeste04.moe"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(url),
   title: title,
   description:
-    "Celeste's portfolio website: a developper from France. I code things, but it's not useful :c",
+    "Celeste's portfolio website: a little developper from Frnce who have 21yo. I code things, but it's not useful, but I test things",
   openGraph: {
     title: title,
     type: "website",
     description: "Celeste's portfolio website: a developper from France.",
     siteName: 'Celeste\'s portfolio website',
-    url: 'https://celeste04.moe',
-    images: '../public/bg.jpg'
+    url: url,
+    images: '../bg.jpg'
   },
 
   icons: "../public/avatar.gif"
