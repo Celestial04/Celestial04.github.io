@@ -3,6 +3,7 @@ import { Playpen_Sans } from "next/font/google";
 import "./globals.css";
 import Header from '@/app/components/Header';
 import Footer from "./components/Footer";
+import Script from 'next/script'
 import pfp from '@/app/img/pfp.gif';
 import bg from '@/app/img/bg.jpg'
 
@@ -49,6 +50,8 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Script defer src="https://analytics.celeste04.moe/script.js"
+        data-website-id="b4c47dd4-9c88-4e8a-9034-6a01a251b2f6"/>
         <Footer/>
       </body>
     </html>
