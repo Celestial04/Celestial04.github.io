@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <header className="sticky top-0 z-50 h-14 justify-center backdrop-blur-xl text-center">
             <a
-              href="celeste04.moe"
+              href="https://celeste04.moe"
               draggable="false"
             >
               Main website
