@@ -22,9 +22,15 @@ export const metadata: Metadata = {
     url: url,
     images: '../bg.jpg'
   },
+  twitter: {
+    card: 'summary',
+    creator: '@CuteTenshii',
+    site: '@CuteTenshii',
+    images: ,
+  },
 
   
-  icons: "../public/avatar.gif"
+  icons: "../public/pfp.gif"
 };
 
 export default function RootLayout({
@@ -37,7 +43,7 @@ export default function RootLayout({
       <body
         className={`${playPenSans.className} backdrop-blur-xl`}
       >
-        <header className="sticky top-0 z-50 h-14 justify-center backdrop-blur-xl text-center">
+        <header className="sticky top-0 z-50 h-14 justify-center backdrop-blur-xl">
             <a
               href="https://celeste04.moe"
               draggable="false"

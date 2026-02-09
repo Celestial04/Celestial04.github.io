@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
         <div className="backdrop-blur-md p-3.5 rounded-md bg-background">
           <Image
-            src="/avatar.gif"
+            src="pfp.gif"
             alt="Celeste's Discord profil picture."
             width={100}
             height={100}
@@ -16,10 +16,10 @@ export default function Home() {
 
           <div className="flex flex-col sm:items-start sm:text-center">
             <p className="text-2xl">
-              Hi! 👋
+              Hi, I&apos;m celeste! 👋
               </p>
             <p>
-              aaaaaaaaaaaaaaaaaa
+              I&apos;m a 
               </p>
           </div>
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
