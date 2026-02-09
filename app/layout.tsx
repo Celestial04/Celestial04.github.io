@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(url),
   title: title,
   description:
-    "Celeste's portfolio website: a little developper from Frnce who have 21yo. I code things, but it's not useful, but I test things",
+    "Celeste's portfolio website: a little developper from France who have 21yo. I code things, but it's not useful, but I test things",
   openGraph: {
     title: title,
     type: "website",
