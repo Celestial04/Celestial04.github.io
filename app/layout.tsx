@@ -14,9 +14,10 @@ export const metadata: Metadata = {
     "Celeste's portfolio website: a developper from France. I code things, but it's not useful :c",
   openGraph: {
     title: title,
+    type: "website",
     description: "Celeste's portfolio website: a developper from France.",
   },
-  icons: ".."
+  icons: "../public/avatar.gif"
 };
 
 export default function RootLayout({
