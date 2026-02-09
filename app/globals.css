@@ -20,11 +20,10 @@
   }
 }
 
-a:active {
+a:hover:active {
   scale: 95%;
 }
 a{
-
   transition: scale ease-in-out 50ms;
 }
 
