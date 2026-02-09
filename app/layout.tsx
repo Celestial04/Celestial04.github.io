@@ -13,16 +13,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(url),
   title: title,
   description:
-    "Celeste's portfolio website: a little developper from France who have 21yo. I code things, but it's not useful, but I test things",
+    "Celeste's portfolio website: a little developper from France who have 21yo. I code things, but it's not useful",
   openGraph: {
     title: title,
     type: "website",
-    description: "Celeste's portfolio website: a developper from France.",
+    description: "Hi! I'm Celeste, a developper from France who have 21yo! Learn more about me here!",
     siteName: 'Celeste\'s portfolio website',
     url: url,
     images: '../bg.jpg'
   },
 
+  
   icons: "../public/avatar.gif"
 };
 
