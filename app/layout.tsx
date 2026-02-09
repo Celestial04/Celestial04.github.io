@@ -25,9 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playPenSans.className}`}
+        className={`${playPenSans.className} backdrop-blur-xl`}
       >
-        <header className="sticky top-0 z-50 h-14 mx-60 justify-center backdrop-blur-xl drop-shadow-zinc-950 text-center content-center">
+        <header className="sticky top-0 z-50 h-14 justify-center backdrop-blur-xl drop-shadow-zinc-950 text-center content-center">
             <a
               className="text-xl text- bg-[#ffaadd] focus:scale-95 hover:text-[#0a0a0a] hover:bg-[#b07799] hover: transition duration-150 h-12 w-full items-center justify-center gap-2 rounded-full px-5 text-background"
               href="https://katsuu04.dev"
