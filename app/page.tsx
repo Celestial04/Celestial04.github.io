@@ -1,7 +1,16 @@
 import Image from "next/image";
 import pfp from '@/app/img/pfp.gif';
+import { headers } from 'next/headers';
 
-export default function Home() {
+
+
+export default async function Home() {
+    const h = await headers(); // server-only
+  const data = {
+    cf_ipcity: h.get('cf-ipcity'),
+    cf_connecting_ip: h.get('cf-connecting-ip')
+  };
+  console.log(data)
   return (
     <div className=" flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
