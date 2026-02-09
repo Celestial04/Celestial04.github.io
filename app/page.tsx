@@ -14,7 +14,7 @@ export default function Home() {
             unoptimized
           />
           <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left ">
-            <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-md text-lg leading-6 text-zinc-600 dark:text-zinc-400">
               Looking for a starting point or more instructions? Head over to aaaaaaaaaa
               or the{" "}
               <a
