@@ -6,12 +6,14 @@ const playPenSans = Playpen_Sans({
   subsets: ["latin"]
 })
 
+const title = "celeste04.moe | portfolio website"
+
 export const metadata: Metadata = {
-  title: "Celeste04.dev'",
+  title: title,
   description:
     "Celeste's portfolio website: a developper from France. I code things, but it's not useful :c",
   openGraph: {
-    title: "Celeste04.dev",
+    title: title,
     description: "Celeste's portfolio website: a developper from France.",
   },
   icons: ".."
