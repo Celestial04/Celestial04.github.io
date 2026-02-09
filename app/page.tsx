@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className=" flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
-        <div className="backdrop-blur-md p-[14px]">
+        <div className="backdrop-blur-md p-[14px] rounded-md">
           <Image
             src="/avatar.gif"
             alt="Celeste's Discord profil picture."
@@ -19,7 +19,8 @@ export default function Home() {
               or the{" "}
               <a
                 href="https://katsuu04.dev"
-                className="font-medium text-zinc-950 dark:text-zinc-50"
+                className="font-medium text-zinc-950 dark:text-zinc-50 "
+                
               >
                 meow
               </a>{" "}
@@ -32,6 +33,7 @@ export default function Home() {
               href=""
               target="_blank"
               rel="noopener noreferrer"
+              draggable="false"
             >
               button
             </a>
@@ -40,6 +42,7 @@ export default function Home() {
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
               rel="noopener noreferrer"
+              draggable="false"
             >
               button
             </a>

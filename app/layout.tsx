@@ -40,7 +40,7 @@ export default function RootLayout({
       >
         <header className="sticky top-0 z-50 h-[3.5rem] mx-[15rem] justify-center backdrop-blur-xl drop-shadow-zinc-950 text-center content-center">
             <a
-              className="text-xl text- bg-[#ffaadd] hover:text-[#0a0a0a] hover:bg-[#b07799] hover: transition duration-150 h-12 w-full items-center justify-center gap-2 rounded-full px-5 text-background"
+              className="text-xl text- bg-[#ffaadd] transform-3d- hover:text-[#0a0a0a] hover:bg-[#b07799] hover: transition duration-150 h-12 w-full items-center justify-center gap-2 rounded-full px-5 text-background"
               href="https://katsuu04.dev"
             >
               Main website
