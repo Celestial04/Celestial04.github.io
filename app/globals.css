@@ -23,11 +23,13 @@
 a:hover:active {
   scale: 95%;
 }
+
 a{
   transition: scale ease-in-out 50ms;
 }
 
 body {
+  background: url(./img/bg.jpg);
   background-size: cover;
   background-position:center;
   height: 100%;

@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` bg-[src("${bg.src}")] ${playPenSans.className} backdrop-blur-xl`}
+        className={` ${playPenSans.className} antialiased backdrop-blur-xl`}
       >
         <Header/>
         {children}
