@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Playpen_Sans } from "next/font/google";
 import "./globals.css";
+import Header from '@/app/components/Header';
+import Footer from "./components/Footer";
+import pfp from '@/app/img/pfp.gif';
 
 const playPenSans = Playpen_Sans({
   subsets: ["latin"]
@@ -24,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    creator: '@CuteTenshii',
-    site: '@CuteTenshii',
-    images: ,
+    creator: '@celestial04_',
+    site: '@celestial04_',
+    images: [pfp.src],
   },
 
   
@@ -43,15 +46,9 @@ export default function RootLayout({
       <body
         className={`${playPenSans.className} backdrop-blur-xl`}
       >
-        <header className="sticky top-0 z-50 h-14 justify-center backdrop-blur-xl">
-            <a
-              href="https://celeste04.moe"
-              draggable="false"
-            >
-              Main website
-            </a>
-        </header>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
