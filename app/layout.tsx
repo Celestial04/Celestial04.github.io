@@ -16,7 +16,11 @@ export const metadata: Metadata = {
     title: title,
     type: "website",
     description: "Celeste's portfolio website: a developper from France.",
+    siteName: 'Celeste\'s portfolio website',
+    url: 'https://celeste04.moe',
+    images: '../public/bg.jpg'
   },
+
   icons: "../public/avatar.gif"
 };
 
