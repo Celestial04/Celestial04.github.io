@@ -11,7 +11,7 @@ const playPenSans = Playpen_Sans({
   subsets: ["latin"]
 })
 
-const title = "celeste04.moe | portfolio website"
+const title = "celeste04.moe, it's my site!"
 const url = "https://celeste04.moe"
 
 export const metadata: Metadata = {
