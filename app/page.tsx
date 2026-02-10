@@ -20,7 +20,9 @@ export default async function Home() {
               Hi, I&apos;m celeste! 👋
               </p>
             <p>
-              I&apos;m a developper aged of 21yo who live in France
+              I&apos;m a developper aged of 21yo who live in France,
+              I started learning HTML and CSS at 12yo, and my first use 
+              of a Linux distribution was in 2016 with Ubuntu.
               </p>
           </div>
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
