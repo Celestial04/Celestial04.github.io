@@ -3,7 +3,7 @@
 export default function Footer() {
 
     return(
-        <footer className="sticky bottom-0 z-50 h-14 text-center bg-background">
+        <footer className="bottom-0 z-50 h-14 text-center bg-background">
           <p>
             Made with 🩷
           </p>
