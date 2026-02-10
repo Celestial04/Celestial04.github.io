@@ -3,19 +3,18 @@ import pfp from '@/app/img/pfp.gif';
 
 export default async function Home() {
   return (
-    <div className=" flex min-h-screen items-center justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
-        <div className="backdrop-blur-md p-3.5 rounded-md bg-background">
+      <main className="min-h-screen w-full max-w-3xl flex-col items-center py-32 px-16 sm:items-start">
+        <div className="flex flex-col backdrop-blur-md p-3.5 w-xl rounded-md bg-background">
           <Image
             src={pfp.src}
             alt="Celeste's Discord profile picture."
             width={100}
             height={100}
-            className="rounded-md"
+            className="rounded-md m-auto"
             unoptimized
           />
 
-          <div className="flex flex-col sm:items-start sm:text-center">
+          <div className="flex flex-col sm:text-center">
             <p className="text-2xl">
               Hi, I&apos;m celeste! 👋
               </p>
@@ -47,6 +46,5 @@ export default async function Home() {
           </div>
         </div>
       </main>
-    </div>
   );
 }
