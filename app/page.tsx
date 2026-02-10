@@ -8,7 +8,7 @@ export default async function Home() {
         <div className="backdrop-blur-md p-3.5 rounded-md bg-background">
           <Image
             src={pfp.src}
-            alt="Celeste's Discord profil picture."
+            alt="Celeste's Discord profile picture."
             width={100}
             height={100}
             className="rounded-md"
@@ -20,7 +20,7 @@ export default async function Home() {
               Hi, I&apos;m celeste! 👋
               </p>
             <p>
-              I&apos;m a developper aged of 21yo who live in France,
+              I&apos;m a developer aged of 21yo who live in France,
               I started learning HTML and CSS at 12yo, and my first use 
               of a Linux distribution was in 2016 with Ubuntu.
               </p>
