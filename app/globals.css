@@ -5,6 +5,7 @@
   --foreground: #171717;
 }
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -24,15 +25,27 @@ a:hover:active {
   scale: 95%;
 }
 
-a{
-  transition: scale ease-in-out 50ms;
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
 }
 
+a {
+  transition: scale ease-in-out 100ms;
+}
+
+
 body {
-  background: url(./img/bg.jpg);
-  background-size: cover;
-  background-position:center;
   height: 100%;
   color: var(--foreground);
+  background-color: black;
   font-family: Playpen, sans-serif;
 }
