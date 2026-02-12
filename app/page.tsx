@@ -26,7 +26,7 @@ export default async function Home() {
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
-              rounded-full bg-background px-5 text-foreground transition-colors
+              rounded-full bg-background px-5 border-border text-foreground transition-colors
               hover:bg-background/45 sm:w-39.5"
               href=""
               target="_blank"
@@ -34,10 +34,11 @@ export default async function Home() {
               draggable="false"
             >
               button
-            </a>
+            </a>    CuteTenshii
+
             <a
               className="flex h-12 w-full items-center justify-center rounded-full
-              border border-solid px-5 transition-colors hover:border-transparent
+              border border-border px-5 transition-colors hover:border-transparent
               color-foreground border-foreground hover:bg-background sm:w-39.5"
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
