@@ -26,7 +26,7 @@ export default async function Home() {
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
-              rounded-full bg-background px-5 border-border text-foreground transition-colors
+              rounded-full bg-background px-5 border-white text-foreground transition-colors
               hover:bg-background/45 sm:w-39.5"
               href=""
               target="_blank"
