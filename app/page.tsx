@@ -20,7 +20,7 @@ export default async function Home() {
               Hi, I&apos;m celeste! 👋
               </p>
             <p>
-              I&apos;m a developer aged of 21yo who live in France, 
+              I&apos;m a developer aged of 21yo who live in France 
               </p>
           </div>
           <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
