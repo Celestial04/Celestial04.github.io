@@ -35,6 +35,7 @@ html::before {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  color: var(--foreground);
   filter: blur(5px);
 }
 
