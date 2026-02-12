@@ -34,7 +34,7 @@ export default async function Home() {
               draggable="false"
             >
               button
-            </a>    CuteTenshii
+            </a>
 
             <a
               className="flex h-12 w-full items-center justify-center rounded-full
