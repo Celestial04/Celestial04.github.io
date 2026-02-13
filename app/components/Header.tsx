@@ -13,7 +13,7 @@ export default function Header() {
       className="flex"
       alt="Website icon."
       />
-      <p className=" flex content-center">Celeste.moe</p>
+      <p className=" flex content-center">Celeste04.moe</p>
       </a>
       </div>
     </header>
