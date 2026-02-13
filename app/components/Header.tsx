@@ -4,14 +4,18 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="sticky flex px-4 top-0 z-50 h-14 backdrop-blur-lg shadow-md">
-      <Image
+    <header className="sticky flex py-4 top-0 z-50  backdrop-blur-lg shadow-md">
+      <div className="container mx-auto px-4 flex justify-between items-center">
+      <a href="#main"><Image
       src={icon.src}
-      width={5}
+      width={40}
       height={5}
+      className="flex"
       alt="Website icon."
       />
-      <p className="content-center">Celeste.moe</p>
+      <p className=" flex content-center">Celeste.moe</p>
+      </a>
+      </div>
     </header>
   );
 }

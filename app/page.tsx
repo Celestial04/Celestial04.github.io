@@ -5,17 +5,17 @@ export default async function Home() {
   return (
       <main className="min-h-screen w-full px-4">
         <div
-        className="flex flex-col p-3.5 rounded-md border-(foreground)border md:w-1xl lg:w-2/4"
+        className="flex flex-col p-3.5 rounded-md border-(foreground) lg:w-2/4 mr-auto"
         >
           <Image
             src={pfp.src}
             alt="Celeste's Discord profile picture."
             width={150}
             height={150}
-            className="rounded-md m-auto"
+            className="rounded-md"
             unoptimized
           />
-          <div className="flex flex-col lg:text-center">
+          <div className="flex flex-col">
             <p className="text-2xl">
               Hi, I&apos;m celeste! 👋
               </p>
@@ -35,7 +35,6 @@ export default async function Home() {
             >
               button
             </a>
-
             <a
               className="flex h-12 w-full items-center justify-center rounded-full
               border border-border px-5 transition-colors hover:border-transparent
