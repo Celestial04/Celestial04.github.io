@@ -5,7 +5,7 @@ export default async function Home() {
   return (
       <main className="min-h-screen w-full px-4">
         <div
-        className="main flex flex-col p-3.5 rounded-md border-(foreground) lg:w-2/4 mr-auto sm:flex-row sm:gap-2"
+        className="main flex flex-col p-3.5 rounded-md border-(foreground) mx-auto w-fit sm:flex-row sm:gap-2 "
         >
           <Image
             src={pfp.src}
@@ -24,7 +24,7 @@ export default async function Home() {
               I&apos;m a developer aged of 21yo who live in France 
               </p>
           </div>
-          <div className="flex flex-row gap-4 text-base font-medium sm:">
+          <div className="flex flex-row gap-4 text-base font-medium bottom-0">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors
