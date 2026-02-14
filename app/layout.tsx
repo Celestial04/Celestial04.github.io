@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Playpen_Sans } from "next/font/google";
 import "./globals.css";
 import Header from '@/app/components/Header';
-import Footer from "./components/Footer";
+import Footer from "@/app/components/Footer";
 import Script from 'next/script'
 import pfp from '@/app/img/pfp.gif';
 import bg from '@/app/img/bg.jpg'
