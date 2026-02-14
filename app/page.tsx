@@ -5,7 +5,7 @@ export default async function Home() {
   return (
       <main className="min-h-screen w-full px-4">
         <div
-        className="main flex flex-col p-3.5 rounded-md border-(foreground) mx-auto w-fit sm:flex-row sm:gap-2 relative"
+        className="main flex flex-col m-3.5 rounded-md border-(foreground) lg:mx-auto w-fit sm:flex-row sm:gap-2 lg:relative"
         >
           <Image
             src={pfp.src}
@@ -21,31 +21,28 @@ export default async function Home() {
               Hi, I&apos;m celeste! 👋
               </p>
             <p>
-              I&apos;m a developer aged of 21yo who live in France 
+              I&apos;m a developer aged of 21yo who live in France.
               </p>
+
           </div>
-          <div className="flex flex-row gap-4 text-base font-medium bottom-0 absolute">
+          <div className="flex flex-row gap-4 text-base font-medium lg:bottom-0 lg:absolute">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors
               hover:bg-background/45 sm:w-39.5"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#Projects"
               draggable="false"
             >
-              button
+              Projects
             </a>
             <a
               className="flex h-12 w-full items-center justify-center rounded-full
               border border-border px-5 transition-colors hover:border-transparent
               color-foreground border-foreground hover:bg-background sm:w-39.5"
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#Stats"
               draggable="false"
             >
-              button
+              Setup
             </a>
           </div>
           </div>
