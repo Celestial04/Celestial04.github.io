@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${playPenSans.className} antialiased`}
+        className={` ${playPenSans.className} antialiased scroll-smooth`}
       >
         <Header/>
         {children}

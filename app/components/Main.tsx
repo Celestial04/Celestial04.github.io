@@ -34,7 +34,7 @@ export default function Footer() {
               className="flex h-12 w-full items-center justify-center rounded-full
               border border-border px-5 transition-colors hover:border-transparent
               color-foreground border-foreground hover:bg-background sm:w-39.5"
-              href="#Stats"
+              href="#Setup"
               draggable="false"
             >
               Setup
