@@ -5,7 +5,7 @@ export default async function Home() {
   return (
       <main className="min-h-screen w-full px-4">
         <div
-        className="flex flex-col p-3.5 rounded-md border-(foreground) lg:w-2/4 mr-auto"
+        className="main flex flex-col p-3.5 rounded-md border-(foreground) lg:w-2/4 mr-auto sm:flex-row sm:gap-2"
         >
           <Image
             src={pfp.src}
@@ -15,6 +15,7 @@ export default async function Home() {
             className="rounded-md"
             unoptimized
           />
+          <div>
           <div className="flex flex-col">
             <p className="text-2xl">
               Hi, I&apos;m celeste! 👋
@@ -23,7 +24,7 @@ export default async function Home() {
               I&apos;m a developer aged of 21yo who live in France 
               </p>
           </div>
-          <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+          <div className="flex flex-row gap-4 text-base font-medium sm:">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors
@@ -46,6 +47,7 @@ export default async function Home() {
             >
               button
             </a>
+          </div>
           </div>
         </div>
       </main>
