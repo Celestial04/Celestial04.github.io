@@ -4,7 +4,7 @@ import pfp from "@/app/img/pfp.gif";
 export default async function Home() {
   return (
     <main className="min-h-screen w-full px-4">
-      <div className="main flex flex-col m-3.5 rounded-md border-(foreground) lg:mx-auto w-fit sm:flex-row sm:gap-2 lg:relative">
+      <div className="flex flex-col m-3.5 rounded-md border-(foreground) lg:mx-auto w-fit sm:flex-row sm:gap-2 lg:relative">
         <Image
           src={pfp.src}
           alt="Celeste's Discord profile picture."
@@ -42,7 +42,7 @@ export default async function Home() {
       </div>
       <div
       id="Projects"
-      className="flex mt-98 backdrop-blur-xl"
+      className="flex mt-300 backdrop-blur-xl"
       >
         <h2 className="text-2xl">
           Projects
