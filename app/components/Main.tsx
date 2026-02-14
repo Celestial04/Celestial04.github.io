@@ -16,7 +16,7 @@ export default function Footer() {
           unoptimized
         />
         <div>
-          <div className="flex flex-col">
+          <div className="flex flex-col text-white">
             <h1 className="text-5xl">Hi, I&apos;m Celeste! 👋</h1>
             <p className="text-3xl">I&apos;m a developer aged of 21yo who live in France.</p>
           </div>
