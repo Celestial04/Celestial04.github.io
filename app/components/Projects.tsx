@@ -4,7 +4,7 @@ export default function Projects() {
 
     return(
       <div
-      id="Setup"
+      id="Projects"
       className="flex mt-300"
       >
         <div className="border-2 rounded-2xl w-full border-(border-stats) p-4">
