@@ -7,7 +7,6 @@
   --border-stats: #442833;
 }
 
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -21,10 +20,6 @@
     --border: #9e9e9e;
     --foreground: #ededed;
   }
-}
-
-a:hover:active {
-  scale: 95%;
 }
 
 html::before {
@@ -45,6 +40,9 @@ a {
   transition: scale ease-in-out 100ms;
 }
 
+a:hover:active {
+  scale: 95%;
+}
 
 body {
   height: 100%;
