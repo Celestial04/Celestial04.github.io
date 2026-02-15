@@ -9,7 +9,7 @@ export default function Setup() {
       id="Setup"
       className="flex mt-300"
       >
-        <div className="border-2 rounded-2xl w-full border-[#442833]">
+        <div className="border-2 rounded-2xl w-full border-(border-stats)">
         <h2 className="text-2xl">
           Setup
         </h2>
