@@ -11,6 +11,7 @@ export default function Projects() {
         <h2 className="text-2xl">
           Projects
         </h2>
+        <p>Here&apos;s all my projects:</p>
         </div>
       </div>
 )}
