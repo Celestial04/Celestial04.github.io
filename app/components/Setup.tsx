@@ -1,18 +1,11 @@
-'use client';
-
-import Image from "next/image";
+"use client";
 
 export default function Setup() {
-
-    return(
-      <div
-      id="Setup"
-      className="flex mt-300"
-      >
-        <div className="border-2 rounded-2xl w-full border-(border-stats)">
-        <h2 className="text-2xl">
-          Setup
-        </h2>
-        </div>
+  return (
+    <div id="Setup" className="flex mt-300">
+      <div className="border-2 rounded-2xl w-full border-foreground">
+        <h2 className="text-2xl">Setup</h2>
       </div>
-)}
+    </div>
+  );
+}
