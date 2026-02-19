@@ -6,13 +6,13 @@ import Image from "next/image";
 export default function Footer() {
 
     return(
-<div className="flex flex-col m-3.5 rounded-md border-(foreground) lg:mx-auto  sm:flex-row sm:gap-2 lg:relative">
+<div className="flex flex-col m-3.5 rounded-md border-(foreground) max-sm:flex-row sm:gap-2 lg:relative">
         <Image
           src={pfp.src}
           alt="Celeste's Discord profile picture."
           width={150}
           height={150}
-          className="rounded-md w-fit"
+          className="rounded-md"
           unoptimized
         />
         <div>
@@ -20,7 +20,7 @@ export default function Footer() {
             <h1 className="text-5xl">Hi, I&apos;m Celeste! 👋</h1>
             <p className="text-3xl">I&apos;m a developer aged of 21yo who live in France.</p>
           </div>
-          <div className="flex flex-row gap-4 w-full text-base font-medium lg:bottom-0 lg:absolute">
+          <div className="flex flex-row gap-4 w-full text-base font-medium lg:bottom-0">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors

@@ -5,6 +5,11 @@ export default function Setup() {
     <div id="Setup" className="flex mt-250">
       <div className="border-2 rounded-2xl w-full border-foreground">
         <h2 className="text-2xl">Setup</h2>
+        <div className="flex gap-3 m">
+          <div>OS</div>
+          <div>GPU</div>
+          <div>CPU</div>
+        </div>
       </div>
     </div>
   );
