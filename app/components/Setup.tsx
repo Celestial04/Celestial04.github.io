@@ -2,7 +2,7 @@
 
 export default function Setup() {
   return (
-    <div id="Setup" className="flex mt-250">
+    <div id="Setup" className="flex mt-250 scroll-m-20">
       <div className="border-2 rounded-2xl w-full border-foreground">
         <h2 className="text-2xl">Setup</h2>
         <div className="flex gap-3 m">
