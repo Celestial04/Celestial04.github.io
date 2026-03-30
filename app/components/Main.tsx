@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Footer() {
 
     return(
-<div id="main" className="flex scroll-m-20 flex-col m-3.5 rounded-md border-(foreground) max-sm:flex-row sm:gap-2 lg:relative">
+<div id="main" className="flex scroll-m-20 md:max-w-fit rounded-md border-(foreground) md:mx-auto md:flex-row md:gap-2 lg:relative">
         <Image
           src={pfp.src}
           alt="Celeste's Discord profile picture."
@@ -20,7 +20,7 @@ export default function Footer() {
             <h1 className="text-5xl">Hi, I&apos;m Celeste! 👋</h1>
             <p className="text-3xl">I&apos;m a developer aged of 21yo who live in France.</p>
           </div>
-          <div className="flex flex-row gap-4 w-full text-base font-medium lg:bottom-0">
+          <div className="flex flex-row gap-4 w-full text-base font-medium">
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors
