@@ -4,14 +4,14 @@ export default function Projects() {
   return (
     <div
       id="Projects"
-      className="flex scroll-m-20 flex-col mt-250 border-2 rounded-2xl w-full border-foreground backdrop-blur-md m-2 p-1 list-inside"
+      className="flex scroll-m-20 flex-col mt-250 border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
     >
       <div>
         <h2 className="text-2xl">Projects</h2>
         <p>Here&apos;s all my projects:</p>
       </div>
-      <div className="backdrop-blur-md md:flex-row md:flex">
-        <div className="rounded-2xl bg-indigo-600/25 p-4 mb-8">
+      <div className="backdrop-blur-md flex flex-col">
+        <div className="rounded-2xl bg-indigo-600/25 p-4 mb-8 hover:scale-150">
           <h4 className="text-xl">
             <a href="https://dideet.com">Dideet</a>:
           </h4>
