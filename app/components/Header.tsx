@@ -10,7 +10,7 @@ export default function Header() {
           <Image
             src={icon.src}
             width={40}
-            height={5}
+            height={40}
             alt="Website icon."
           />
           <p className="text-3xl">Celeste04.moe</p>
