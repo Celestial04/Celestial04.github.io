@@ -18,7 +18,7 @@ export default function Footer() {
         <div>
           <div className="flex flex-col text-white">
             <h1 className="text-5xl">Hi, I&apos;m Celeste! 👋</h1>
-            <p className="text-3xl">I&apos;m a developer aged of 21yo who live in France.</p>
+            <p className="text-3xl">I&apos;m a developer aged of 21 years old who live in France.</p>
           </div>
           <div className="flex flex-row gap-4 w-full text-base font-medium">
             <a
