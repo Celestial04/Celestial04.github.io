@@ -4,14 +4,14 @@ export default function Projects() {
   return (
     <div
       id="Projects"
-      className="flex scroll-m-20 flex-col mt-195 border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
+      className="flex scroll-m-24 flex-col mt-195 border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
     >
       <div>
         <h2 className="text-2xl">Projects</h2>
         <p>Here&apos;s all my projects:</p>
       </div>
       <div className="backdrop-blur-md flex flex-col">
-        <div className="rounded-2xl bg-indigo-600/25 p-4 mb-8 hover:scale-150">
+        <div className="rounded-2xl bg-indigo-600/25 p-4 mb-8 hover:scale-107 duration-150">
           <h4 className="text-xl">
             <a href="https://dideet.com">Dideet</a>:
           </h4>
@@ -23,7 +23,7 @@ export default function Projects() {
             <a href="mailto:write@katsuu04.dev">write@katsuu04.dev</a>!
           </p>
         </div>
-        <div className="rounded-2xl bg-purple-300/25 p-4">
+        <div className="rounded-2xl bg-purple-300/25 p-4 hover:scale-107 duration-150">
           <h4 className="text-xl">
             <a href="https://github.com/Celestial04/WebApperAndroid">
               WebApper

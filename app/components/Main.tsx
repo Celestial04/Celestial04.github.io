@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Footer() {
 
     return(
-<div id="main" className="flex scroll-m-20 rounded-md border-(foreground) md:mx-auto max-md:flex-col md:gap-2 lg:relative">
+<div id="main" className="flex scroll-m-24 rounded-md border-(foreground) md:mx-auto max-md:flex-col md:gap-2 lg:relative">
         <Image
           src={pfp.src}
           alt="Celeste's Discord profile picture."
@@ -24,7 +24,7 @@ export default function Footer() {
             <a
               className="flex h-12 w-full items-center justify-center gap-2
               rounded-full bg-background px-5 border-white text-foreground transition-colors
-              hover:bg-background/45 sm:w-39.5"
+              hover:bg-background/45 sm:w-39.5 hover:scale-107 duration-150"
               href="#Projects"
               draggable="false"
             >
@@ -33,7 +33,7 @@ export default function Footer() {
             <a
               className="flex h-12 w-full items-center justify-center rounded-full
               border border-border px-5 transition-colors hover:border-transparent
-              color-foreground border-foreground hover:bg-background sm:w-39.5"
+              color-foreground border-foreground hover:bg-background sm:w-39.5 hover:scale-107 duration-150"
               href="#Setup"
               draggable="false"
             >

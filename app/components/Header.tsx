@@ -10,7 +10,7 @@ export default function Header() {
       items-center justify-between"
       >
         <div>
-        <a href="#main" className="flex-row flex">
+        <a href="#main" className="flex-row flex hover:scale-107 duration-150">
           <Image
             src={icon.src}
             width={40}
@@ -20,14 +20,14 @@ export default function Header() {
           <p className="text-3xl">Celeste04.moe</p>
         </a>
         </div>
-        <div className="text-lg flex flex-row gap-4 justify-between">
-        <a href="#Setup">
+        <div className="text-lg flex flex-row gap-4 justify-between ">
+        <a href="#Setup" className="hover:scale-107 duration-150">
           Setup
         </a>
-        <a href="#Projects">
+        <a href="#Projects" className="hover:scale-107 duration-150">
           Projects
         </a>
-        <a href="#Me">
+        <a href="#Me" className="hover:scale-107 duration-150">
           About Me
         </a>
       </div>

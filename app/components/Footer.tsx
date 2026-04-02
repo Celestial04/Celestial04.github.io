@@ -8,6 +8,7 @@ export default function Footer() {
         <a
           href="https://github.com/Celestial04/Celestial04.github.io"
           draggable="false"
+          className="hover:underline"
         >
           here!
         </a>
