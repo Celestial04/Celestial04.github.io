@@ -33,8 +33,6 @@ export const metadata: Metadata = {
     site: '@celestial04_',
     images: [pfp.src],
   },
-
-  
   icons: [pfp.src]
 };
 

@@ -21,14 +21,17 @@ export default function Header() {
         </a>
         </div>
         <div className="text-lg flex flex-row gap-4 justify-between ">
-        <a href="#Setup" className="hover:scale-107 duration-150">
-          Setup
+        <a href="#Me" className="hover:scale-107 duration-150">
+          About Me
+        </a>
+        <a href="#Experiences" className="hover:scale-107 duration-150">
+          Experiences
         </a>
         <a href="#Projects" className="hover:scale-107 duration-150">
           Projects
         </a>
-        <a href="#Me" className="hover:scale-107 duration-150">
-          About Me
+        <a href="#Setup" className="hover:scale-107 duration-150">
+          Setup
         </a>
       </div>
       </div>
