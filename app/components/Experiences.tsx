@@ -5,7 +5,7 @@ export default function Experiences() {
     <div
       id="Experiences"
       className="
-        flex scroll-m-24 flex-col mt-150 border-2 rounded-2xl
+        flex scroll-m-24 flex-col mt-[67vh] border-2 rounded-2xl
         w-full border-foreground backdrop-blur-md p-1 list-inside
         ">
       <div>

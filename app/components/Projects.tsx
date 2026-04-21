@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div
       id="Projects"
-      className="flex scroll-m-24 flex-col mt-195 border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
+      className="flex scroll-m-24 flex-col mt-[67vh] border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
     >
       <div>
         <h2 className="text-2xl">Projects</h2>

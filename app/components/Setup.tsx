@@ -14,7 +14,7 @@ const setup = {
 
 export default function Setup() {
   return (
-    <div id="Setup" className="flex mt-195 scroll-m-20">
+    <div id="Setup" className="flex my-[67vh] scroll-m-20">
       <div className="border-2 rounded-2xl w-full border-foreground p-1">
         <h2 className="text-2xl">Setup</h2>
         <div className="rounded-2xl bg-pink-600/25 p-4 mb-8 hover:scale-107 duration-150">

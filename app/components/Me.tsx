@@ -6,13 +6,13 @@ export default function Me() {
   return (
     <div
       id="Me"
-      className="flex scroll-m-24 flex-col mt-150 border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
+      className="flex scroll-m-24 flex-col mt-[67vh] border-2 rounded-2xl w-full border-foreground backdrop-blur-md p-1 list-inside"
     >
       <div>
         <h2 className="text-2xl">About me</h2>
       </div>
       <div className="backdrop-blur-md flex flex-col">
-        <div className="rounded-2xl bg-/25 p-4 mb-8 hover:scale-107 duration-150">
+        <div className="rounded-2xl bg-red-600/25 p-4 mb-8 hover:scale-107 duration-150">
           <h4 className="text-xl">
             Who am I!?
           </h4>

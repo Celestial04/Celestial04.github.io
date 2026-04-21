@@ -6,13 +6,13 @@ import Image from "next/image";
 export default function Footer() {
 
     return(
-<div id="main" className="flex scroll-m-24 rounded-md border-(foreground) md:mx-auto max-md:flex-col md:gap-2 lg:relative">
+<div id="main" className="flex scroll-m-24 rounded-md border-(foreground) md:mx-auto max-md:flex-col md:gap-2 lg:relative h-min">
         <Image
           src={pfp.src}
           alt="Celeste's Discord profile picture."
-          width={150}
-          height={150}
-          className="rounded-md object-contain"
+          className="rounded-lg w-45"
+          width={15}
+          height={15}
           unoptimized
         />
         <div>
