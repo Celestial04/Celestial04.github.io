@@ -11,7 +11,7 @@ export default function Projects() {
         <p>Here&apos;s all my projects:</p>
       </div>
       <div className="backdrop-blur-md flex flex-col">
-        <div className="rounded-2xl bg-indigo-600/25 p-4 mb-8 hover:scale-107 duration-150">
+        <div className="Bubble bg-indigo-600/25 p-4 mb-8 ">
           <h4 className="text-xl">
             <a href="https://dideet.com">Dideet</a>:
           </h4>
@@ -23,7 +23,7 @@ export default function Projects() {
             <a href="mailto:write@katsuu04.dev">write@katsuu04.dev</a>!
           </p>
         </div>
-        <div className="rounded-2xl bg-purple-300/25 p-4 hover:scale-107 duration-150">
+        <div className="Bubble bg-purple-300/25">
           <h4 className="text-xl">
             <a href="https://github.com/Celestial04/WebApperAndroid">
               WebApper

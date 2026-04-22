@@ -12,7 +12,7 @@ export default function Experiences() {
         <h2 className="text-2xl">Experiences</h2>
       </div>
       <div className="backdrop-blur-md flex flex-col">
-        <div className="rounded-2xl bg-amber-400/25 p-4 mb-8 hover:scale-107 duration-150">
+        <div className="Bubble bg-amber-400/25 mb-8">
           <h4 className="text-xl">
             2026
           </h4>

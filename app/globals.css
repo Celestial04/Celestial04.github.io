@@ -41,6 +41,16 @@ a {
   transition: scale ease-in-out 100ms;
 }
 
+.Bubble {
+  border-radius: 16px;
+  transition-duration: 200ms;
+  padding: 10px;
+}
+
+.Bubble:hover {
+  scale: 105%;
+}
+
 a:hover:active {
   scale: 95%;
 }
