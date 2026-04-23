@@ -5,6 +5,7 @@ export default function Experiences() {
     <div
       id="Experiences"
       className="
+      
         flex scroll-m-24 flex-col mt-[67vh] border-2 rounded-2xl
         w-full border-foreground backdrop-blur-md p-1 list-inside
         ">
@@ -21,7 +22,7 @@ export default function Experiences() {
             also expend my knowledge about coding.
           </p>
         </div>
-        <div className="rounded-2xl bg-purple-300/25 p-4 hover:scale-107 duration-150">
+        <div className="Bubble bg-purple-300/25">
           <h4 className="text-xl">
             ???
           </h4>

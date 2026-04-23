@@ -12,7 +12,7 @@ export default function Me() {
         <h2 className="text-2xl">About me</h2>
       </div>
       <div className="backdrop-blur-md flex flex-col">
-        <div className="rounded-2xl bg-red-600/25 p-4 mb-8 hover:scale-107 duration-150">
+        <div className="Bubble bg-red-600/25 mb-2">
           <h4 className="text-xl">
             Who am I!?
           </h4>
@@ -21,7 +21,7 @@ export default function Me() {
             old and I&apos;m born in France.
           </p>
         </div>
-        <div className="rounded-2xl bg-purple-300/25 p-4 hover:scale-107 duration-150">
+        <div className="Bubble bg-purple-300/25">
           <h4 className="text-xl">
             What I do!?
           </h4>

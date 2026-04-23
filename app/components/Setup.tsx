@@ -1,7 +1,8 @@
 "use client";
 const setup = {
-  homePC: {
-    OS: "Windows 11 (dual-boot with Arch Linux)",
+  desktop: {
+    OS: "Windows 11",
+    Dualboot: false,
     GPU: "NVIDIA GeForce RTX 2060",
     CPU: "AMD Ryzen 5 5700X",
   },
@@ -17,20 +18,44 @@ export default function Setup() {
     <div id="Setup" className="flex my-[67vh] scroll-m-20">
       <div className="border-2 rounded-2xl w-full border-foreground p-1">
         <h2 className="text-2xl">Setup</h2>
-        <div className="rounded-2xl bg-pink-600/25 p-4 mb-8 hover:scale-107 duration-150">
-          <div className="py-1.25 m-auto text-center">
+        <div className="Bubble bg-pink-600/25 mb-8">
+          <div className="m-auto text-center">
             <h3 className="text-xl">Desktop</h3>
-            <div className="flex-col gap-3">
-              <div>OS: {setup.homePC.OS}</div>
-              <div>GPU: {setup.homePC.GPU}</div>
-              <div>CPU: {setup.homePC.CPU}</div>
+            <div className="flex-row flex gap-3">
+              <div className="flex-col flex">
+                <div>
+                  <h3>OS</h3>
+                  {setup.desktop.OS}
+                  </div>
+                <div>
+                <h3>GPU</h3>
+                {setup.desktop.GPU}
+              </div>
+              </div>
+              <div>
+                <h3>GPU</h3>
+                {setup.desktop.GPU}
+              </div>
+              <div>
+                <h3>CPU</h3>
+                {setup.desktop.CPU}
+              </div>
             </div>
             <hr className="my-0.5" />
             <h3 className="text-xl">Laptop</h3>
-            <div className="flex-col gap-3">
-              <div>OS: {setup.laptop.OS}</div>
-              <div>GPU: {setup.laptop.GPU}</div>
-              <div>CPU: {setup.laptop.CPU}</div>
+            <div className="flex-row flex gap-3">
+              <div>
+                <h3>OS</h3>
+                {setup.laptop.OS}
+              </div>
+              <div>
+                <h3>GPU</h3>
+                {setup.laptop.GPU}
+              </div>
+              <div>
+                <h3>CPU</h3>
+                {setup.laptop.CPU}
+              </div>
             </div>
           </div>
         </div>

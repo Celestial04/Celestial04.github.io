@@ -37,18 +37,22 @@ html::before {
   scroll-behavior: smooth;
 }
 
+
+
 a {
   transition: scale ease-in-out 100ms;
 }
 
 .Bubble {
   border-radius: 16px;
-  transition-duration: 200ms;
-  padding: 10px;
+  transition-duration: 130ms;
+  padding: 20px;
+  margin-inline: 10px;
 }
 
 .Bubble:hover {
-  scale: 105%;
+  scale: 102.5%;
+  border: 1px solid pink;
 }
 
 a:hover:active {
