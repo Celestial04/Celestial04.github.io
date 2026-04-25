@@ -37,8 +37,6 @@ html::before {
   scroll-behavior: smooth;
 }
 
-
-
 a {
   transition: scale ease-in-out 100ms;
 }
