@@ -11,8 +11,8 @@ export default function Experiences() {
       <div>
         <h2 className="text-2xl">Experiences</h2>
       </div>
-      <div className="backdrop-blur-md flex flex-col my-2">
-        <div className="Bubble bg-amber-400/25 mb-2">
+        <div className="flex max-md:flex-col gap-3">
+        <div className="Bubble bg-amber-400/25">
           <h4 className="text-xl">
             2026
           </h4>
