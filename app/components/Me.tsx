@@ -11,8 +11,8 @@ export default function Me() {
       <div>
         <h2 className="text-2xl">About me</h2>
       </div>
-      <div className="backdrop-blur-md flex flex-col">
-        <div className="Bubble bg-red-600/25 mb-2">
+        <div className="flex max-md:flex-col gap-3">
+        <div className="Bubble bg-red-600/25">
           <h4 className="text-xl">
             Who am I!?
           </h4>

@@ -10,8 +10,8 @@ export default function Projects() {
         <h2 className="text-2xl">Projects</h2>
         <p>Here&apos;s all my projects:</p>
       </div>
-      <div className="backdrop-blur-md flex flex-col">
-        <div className="Bubble bg-indigo-600/25 p-4 mb-8 ">
+        <div className="flex max-md:flex-col gap-3">
+        <div className="Bubble bg-indigo-600/25 ">
           <h4 className="text-xl">
             <a href="https://dideet.com">Dideet</a>:
           </h4>
